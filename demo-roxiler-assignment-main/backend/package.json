@@ -1,0 +1,34 @@
+{
+  "name": "store-rating-backend",
+  "version": "1.0.0",
+  "description": "Backend for Store Rating System",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "setup-db": "node setupDatabase.js",
+    "verify-db": "node verifyDatabase.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "store",
+    "rating"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
